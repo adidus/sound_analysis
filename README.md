@@ -10,13 +10,13 @@
 
 ### Method / Метод
 
-- Weighted acoustic fingerprint:
+- **Weighted acoustic fingerprint:**
   ```
-  F = Serialize(Q((1/T) Σ_t (M_t ⊙ W)))
+  F = Serialize(Q((1/T) * sum_t(M_t ⊙ W)))
   ```
-- Deterministic classification:
+- **Deterministic classification:**
   ```
-  W_rec = argmin_{k∈V} Lev(F_input, F_k)
+  W_rec = argmin(k∈V) Lev(F_input, F_k)
   ```
 
 ### Install / Встановлення
