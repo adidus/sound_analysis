@@ -11,13 +11,9 @@
 ### Method / Метод
 
 - **Weighted acoustic fingerprint:**
-  ```
-  F = Serialize(Q((1/T) * sum_t(M_t ⊙ W)))
-  ```
+  $$F = \text{Serialize}\left(Q\left(\frac{1}{T}\sum_{t=1}^{T}(M_t \odot W)\right)\right)$$
 - **Deterministic classification:**
-  ```
-  W_rec = argmin(k∈V) Lev(F_input, F_k)
-  ```
+  $$W_{rec} = \arg\min_{k \in V} \text{Lev}(F_{input}, F_k)$$
 
 ### Install / Встановлення
 
