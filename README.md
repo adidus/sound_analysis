@@ -2,6 +2,12 @@
 
 **Theme / Тема**: МОДЕЛІ ТА МЕТОД РОЗПІЗНАВАННЯ КЛЮЧОВИХ СЛІВ У ГОЛОСОВУ СИГНАЛІ В КОМПʼЮТЕРНИХ СИСТЕМАХ З ОБМЕЖЕНИМИ РЕСУРСАМИ
 
+
+
+https://github.com/user-attachments/assets/57ae5da4-e69a-411c-b0e1-a8bd4e626c27
+
+
+
 ### Overview / Огляд
 
 - **Modularity / Модульність**: The system is decomposed into two modules: parametrization (features) and classification (deterministic metric). / Система складається з двох модулів: параметризація (ознаки) та класифікація (детермінований метрик).
